@@ -10,6 +10,6 @@ run:
 	./main
 
 lint:
-	golangci-lint run
+	golangci-lint run ./...
 
 .PHONY: clean run lint
