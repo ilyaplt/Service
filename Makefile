@@ -9,4 +9,7 @@ clean:
 run:
 	./main
 
-.PHONY: clean run
+lint:
+	golangci-lint run
+
+.PHONY: clean run lint
